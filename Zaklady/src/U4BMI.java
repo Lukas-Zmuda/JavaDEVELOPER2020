@@ -1,11 +1,17 @@
+import java.util.Scanner;
 
 public class U4BMI {
 
 	public static void main(String[] args) {
 
+		Scanner sc = new Scanner(System.in);
+		
 		//vypocitat a vypisat hodnotu BMI
-		int vyska = 186; //cm
-		int hmotnost = 86; //kg
+		System.out.println("--- Program na vypocet BMI ---");
+		System.out.println("Zadaj vysku[cm]: ");
+		int vyska = sc.nextInt(); //cm
+		System.out.println("Zadaj hmotnost[kg]: ");
+		int hmotnost = sc.nextInt(); //kg
 
 		double v = vyska / 100.0;
 		double bmi = hmotnost / (v * v);
