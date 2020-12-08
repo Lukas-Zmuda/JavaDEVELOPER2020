@@ -8,6 +8,7 @@ public class Vystup {
 		System.out.println(10 + 5);
 		System.out.println("10" + "5");
 		System.out.println(10 * 3);
+		System.out.println(10);
 		System.out.println("Janko\nHrasko");
 		System.out.println("\"Janko\"");
 		System.out.println("\'Janko\'");
