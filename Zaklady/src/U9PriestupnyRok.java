@@ -4,8 +4,7 @@ public class U9PriestupnyRok {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		
+		Scanner sc = new Scanner(System.in);		
 		int rok = 0;
 		System.out.println("Zadaj rok:");
 		rok = sc.nextInt();
