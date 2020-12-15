@@ -15,6 +15,11 @@ public class U7Emoticons {
 		
 		System.out.println("Zadaj emotikon: ");
 		emtkn = sc.nextLine();
+		
+//		if((emtkn == ":-)") || (emtkn == ":)")) {
+//			System.out.println("Usmev");
+//		}
+		
 		switch(emtkn) {
 		case ":-)":
 		case ":)":

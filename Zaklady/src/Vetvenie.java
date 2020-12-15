@@ -68,8 +68,6 @@ public class Vetvenie {
 			System.out.println(" - vikend");
 		}
 		
-		
-		
 		System.out.println("Program pokracuje dalej ...");
 		
 
