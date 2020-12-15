@@ -14,9 +14,16 @@ public class U5Sprepitne {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Zadaj sumu: ");
 		suma = sc.nextDouble();
+		if(suma < 0) {
+			System.out.println("Nespravna suma! Spusti program este raz.");
+			System.exit(0);
+		}
 		System.out.println("Zadaj vysku sprepitneho[v %]:");
 		sprepitne = sc.nextInt();
-		
+		if(sprepitne > 100) {
+			System.out.println("Zle sprepitne! Spusti program este raz.");
+			System.exit(0);
+		}
 		//vypocet sprepitneho
 		sumaSprepitne = suma * (sprepitne / 100.0);
 		

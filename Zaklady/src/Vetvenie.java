@@ -17,7 +17,12 @@ public class Vetvenie {
 			System.out.println("a je neparne");
 		}
 		
-		
+		//cislo je ok ked je z intervalu <1, 100>
+		if((a >= 1) && (a <= 100)) {
+			System.out.println("a je OK");
+		}else {
+			System.out.println("a nie je OK");
+		}
 		
 		
 		System.out.println("Program pokracuje dalej ...");
