@@ -24,11 +24,19 @@ public class Cykly {
 		}
 		System.out.println("-------");
 		//cyklus s podmienkou na zaciatku
-		int k = 1;
+		int k = 100;
 		while(k < 11) {
 			System.out.print(k + ", ");
 			k++;
 		}
+		
+		System.out.println();
+		//cyklus s podmienkou na konci
+		k = 100;
+		do {
+			System.out.print(k + ", ");
+			k++;
+		}while(k < 11);
 	}
 
 }
