@@ -18,8 +18,17 @@ public class Cykly {
 		for(int i = 10; i > 0; i--) {
 			System.out.print(i + ", ");
 		}
-		
-		
+		System.out.println();
+		for(int i = 1, j = 10; i < 11; i++, j--) {
+			System.out.println(i + ":" + j);
+		}
+		System.out.println("-------");
+		//cyklus s podmienkou na zaciatku
+		int k = 1;
+		while(k < 11) {
+			System.out.print(k + ", ");
+			k++;
+		}
 	}
 
 }
