@@ -40,7 +40,5 @@ public class U5Sprepitne {
 			pokracovat = sc.nextInt();
 		} while (pokracovat == 1);
 		System.out.println("Dakujeme za pouzitie nasej mocnej apky.");
-
 	}
-
 }

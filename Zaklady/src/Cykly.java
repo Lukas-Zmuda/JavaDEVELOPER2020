@@ -38,5 +38,4 @@ public class Cykly {
 			k++;
 		}while(k < 11);
 	}
-
 }
