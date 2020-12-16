@@ -68,7 +68,20 @@ public class Vetvenie {
 			System.out.println(" - vikend");
 		}
 		
+		double suma = 100;
+//		if(suma > 1000) {
+//			suma *= 1.1;
+//		}else {
+//			suma *= 1.2;
+//		}
+		
+		//ternarny operator
+		suma = (suma > 1000)? suma * 1.1 : suma * 1.2;
+		
+		System.out.println("suma = " + suma);
 		System.out.println("Program pokracuje dalej ...");
+		
+		
 		
 
 	}
